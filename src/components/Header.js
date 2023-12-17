@@ -1,5 +1,5 @@
 import React from "react";
-import vector from "../assets/vector.svg";
+import alt from "../assets/alt.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCartShopping,
@@ -65,7 +65,7 @@ const Header = () => {
                 </Link>
                 <Link to="/shop">
                   <li className="flex gap-2 text-textColor">
-                    <p>Shop</p> <img src={vector} />
+                    <p>Shop</p> <img src={alt} />
                   </li>
                 </Link>
                 <Link to="/about">
@@ -77,7 +77,9 @@ const Header = () => {
                 <Link to="/contact">
                   <li>Contact</li>
                 </Link>
-                <li>Pages</li>
+                <Link to="/paces">
+                  <li>Pages</li>
+                </Link>
               </ul>
             </div>
           </div>
@@ -131,7 +133,9 @@ const Header = () => {
           <Link to="/contact">
             <li className="py-3">Contact</li>
           </Link>
-          <li className="xl:block hidden py-3">Pages</li>
+          <Link>
+            <li className="xl:block hidden py-3">Pages</li>
+          </Link>
         </ul>
       </div>
     </div>

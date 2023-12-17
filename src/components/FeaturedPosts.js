@@ -1,40 +1,154 @@
 import React from "react";
-
-const FeaturedPosts = () => {
-  const posts = [
-    {
-      image: "/path/to/image1.jpg",
-      title: "Loudset à la Madison #1 (L’integral)",
-      description:
-        "We focus on ergonomics and meeting you where you work. It’s only a keystroke away.",
-      date: "23 April 2021",
-      comments: 10,
-    },
-  ];
-
+import img1 from "../assets/featured/unsplash_dEGu-oCuB1Y (1).png";
+import img2 from "../assets/featured/unsplash_hHdHCfAifHU (1).png";
+import img3 from "../assets/featured/unsplash_tVEqStC2uz8 (1).png";
+import { IoMdAlarm } from "react-icons/io";
+import { FaChartArea } from "react-icons/fa";
+import { IoIosArrowForward } from "react-icons/io";
+function Featured() {
   return (
-    <div className="p-4">
-      <h2 className="text-2xl font-bold mb-4">Featured Posts</h2>
-
-      <div className="grid grid-cols-3 gap-4">
-        {posts.map((post, index) => (
-          <div key={index} className="border p-2">
-            <img
-              src={post.image}
-              alt=""
-              className="w-full h-48 object-cover mb-2"
-            />
-            <h3 className="text-xl font-bold">{post.title}</h3>
-            <p>{post.description}</p>
-            <footer className="mt-2 flex justify-between items-center">
-              <span>{post.date}</span>
-              <span>{post.comments} comments</span>
-            </footer>
+    <div className=" w-full py-16  flex justify-center items-center">
+      <div className=" w-4/5 h-4/5 flex flex-col gap-20">
+        <div className="text-center  flex flex-col gap-4">
+          <p className="text-primaryColor font-semibold text-lg capitalize tracking-normal xl:tracking-wider">
+            practice advise
+          </p>
+          <h2 className="text-textColor xl:font-bold xl:text-3xl capitalize xl:tracking-widest font-extrabold">
+            <span className="xl:block hidden">featured posts</span>
+            <span className="xl:hidden block text-4xl font-bold leading-snug tracking-wide">
+              featured <br /> products
+            </span>
+          </h2>
+          <p className="text-secondText tracking-wider">
+            <span className="xl:block hidden">
+              Problems trying to resolve the conflict between <br />
+              the two major realms of Classical physics: Newtonian mechanics
+            </span>
+            <span className="xl:hidden block font-medium">
+              Problems trying to resolve the <br /> conflict between the two
+              major
+            </span>
+          </p>
+        </div>
+        <div className=" xl:flex xl:flex-row w-full xl:justify-between xl:gap-0 flex flex-col gap-16 flex-wrap">
+          <div className="xl:w-[32%] xl:border-none xl:shadow-none shadow-md border flex flex-col text-center gap-4 ">
+            <div className="w-full relative ">
+              <p className="absolute text-lightText bg-dangerRed z-10 px-3 py-1 rounded-md top-[5%] left-[5%]">
+                NEW
+              </p>
+              <img className="w-full" src={img1} />
+            </div>
+            <div className="w-full pt-3 flex justify-center">
+              <div className="w-[90%]  flex flex-col gap-6">
+                <div className="flex gap-4">
+                  <p className="text-blue-300">Google</p>
+                  <p className="text-secondText">Trending</p>
+                  <p className="text-secondText">New</p>
+                </div>
+                <p className="text-textColor text-start text-xl tracking-wide font-semibold">
+                  Loudest à la Madison #1 <br /> (L'integral)
+                </p>
+                <p className="text-start text-secondText">
+                  We focus on ergonomics and meeting you where you work. It's
+                  only a keystroke away.
+                </p>
+                <div className="w-full flex justify-between">
+                  <div className="flex gap-2  items-center">
+                    <IoMdAlarm className="h-5 w-5 text-primaryColor" />
+                    <p className="text-xs text-secondText">22 April 2023</p>
+                  </div>
+                  <div className="flex gap-2 items-center">
+                    <FaChartArea className="h-5 w-5 text-secondaryColorGreen" />
+                    <p className="text-xs text-secondText">10 comments</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2">
+                  <p className="text-base text-secondText">Learn More</p>
+                  <IoIosArrowForward className="h-7 w-7 text-primaryColor" />
+                </div>
+              </div>
+            </div>
           </div>
-        ))}
+          <div className=" xl:w-[32%] xl:border-none xl:shadow-none shadow-md border flex flex-col text-center gap-4 ">
+            <div className="w-full relative">
+              <p className="absolute text-lightText bg-dangerRed z-10 px-3 py-1 rounded-md top-[5%] left-[5%]">
+                NEW
+              </p>
+              <img className="w-full" src={img2} />
+            </div>
+            <div className="w-full pt-3 flex justify-center">
+              <div className="w-[90%]  flex flex-col gap-6">
+                <div className="flex gap-4">
+                  <p className="text-blue-300">Google</p>
+                  <p className="text-secondText">Trending</p>
+                  <p className="text-secondText">New</p>
+                </div>
+                <p className="text-textColor text-start text-xl tracking-wide font-semibold">
+                  Loudest à la Madison #1 <br /> (L'integral)
+                </p>
+                <p className="text-start text-secondText">
+                  We focus on ergonomics and meeting you where you work. It's
+                  only a keystroke away.
+                </p>
+                <div className="w-full flex justify-between">
+                  <div className="flex gap-2  items-center">
+                    <IoMdAlarm className="h-5 w-5 text-primaryColor" />
+                    <p className="text-xs text-secondText">22 April 2023</p>
+                  </div>
+                  <div className="flex gap-2 items-center">
+                    <FaChartArea className="h-5 w-5 text-secondaryColorGreen" />
+                    <p className="text-xs text-secondText">10 comments</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2">
+                  <p className="text-base text-secondText">Learn More</p>
+                  <IoIosArrowForward className="h-7 w-7 text-primaryColor" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className=" xl:w-[32%] xl:border-none xl:shadow-none shadow-md border flex flex-col text-center gap-4 ">
+            <div className="w-full relative">
+              <p className="absolute text-lightText bg-dangerRed z-10 px-3 py-1 rounded-md top-[5%] left-[5%]">
+                NEW
+              </p>
+              <img className="w-full" src={img3} />
+            </div>
+            <div className="w-full pt-3 flex justify-center">
+              <div className="w-[90%]  flex flex-col gap-6">
+                <div className="flex gap-4">
+                  <p className="text-blue-300">Google</p>
+                  <p className="text-secondText">Trending</p>
+                  <p className="text-secondText">New</p>
+                </div>
+                <p className="text-textColor text-start text-xl tracking-wide font-semibold">
+                  Loudest à la Madison #1 <br /> (L'integral)
+                </p>
+                <p className="text-start text-secondText">
+                  We focus on ergonomics and meeting you where you work. It's
+                  only a keystroke away.
+                </p>
+                <div className="w-full flex justify-between">
+                  <div className="flex gap-2  items-center">
+                    <IoMdAlarm className="h-5 w-5 text-primaryColor" />
+                    <p className="text-xs text-secondText">22 April 2023</p>
+                  </div>
+                  <div className="flex gap-2 items-center">
+                    <FaChartArea className="h-5 w-5 text-secondaryColorGreen" />
+                    <p className="text-xs text-secondText">10 comments</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2">
+                  <p className="text-base text-secondText">Learn More</p>
+                  <IoIosArrowForward className="h-7 w-7 text-primaryColor" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
-};
+}
 
-export default FeaturedPosts;
+export default Featured;

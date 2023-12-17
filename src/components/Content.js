@@ -1,5 +1,5 @@
 import { Button } from "react-bootstrap";
-import Img1 from "../assets/asian-woman-man-with-winter-clothes 1.png";
+import Img1 from "../assets/asian-woman-man.png";
 
 const Content = () => {
   return (
@@ -12,7 +12,7 @@ const Content = () => {
 
         <div className="w-1/2 flex flex-col justify-start items-start p-20">
           <div className="text-1xl font-bold text-gray-500">SUMMER 2020</div>
-          <div className="text-4xl font-semibold text-gray-700 mt-4">
+          <div className="text-4xl font-semibold mt-4">
             Part of the Neural Universe
           </div>
           <div className="text-xl text-gray-600 mt-4">

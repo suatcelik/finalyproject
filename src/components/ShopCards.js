@@ -3,14 +3,14 @@ import { Button } from "react-bootstrap";
 
 function ShopCards() {
   return (
-    <div className="container bg-white ">
-      <h1 className="text-2xl font-bold text-gray-800 text-center">
-        EDITOR'S PICK
-      </h1>
+    <div className="container bg-white">
+      <h1 className="text-2xl font-bold text-gray-800 ">EDITOR'S PICK</h1>
       <p className="text-sm text-gray-500 ">
         Problems trying to resolve the conflict between
       </p>
-      <div className="flex justify-center">
+      <br />
+
+      <div className="flex justify-center gap-8">
         <div className=" relative ">
           <img
             src="img/men.png"
