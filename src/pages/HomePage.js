@@ -1,5 +1,3 @@
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 import BestsellerProducts from "../components/BestsellerProducts";
 import ImageSlider from "../components/ImageSlider";
 
@@ -11,7 +9,6 @@ import SliderImage from "../components/SliderImage";
 const Main = () => {
   return (
     <>
-      <Header />
       <SliderImage />
       <ShopCards />
       <BestsellerProducts />
@@ -19,7 +16,6 @@ const Main = () => {
       <Content />
       <FeaturedPosts />
       <hr></hr>
-      <Footer />
     </>
   );
 };
