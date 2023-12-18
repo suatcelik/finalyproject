@@ -1,28 +1,168 @@
-import { products } from "../data/Data";
-import ProductCard from "./ProductCard";
-const BestsellerProducts = () => {
+import React from "react";
+import foto1 from "../assets/bestseller/fixed-height.png";
+import foto2 from "../assets/bestseller/product-cover-5 (1).png";
+import foto3 from "../assets/bestseller/product-cover-5 (2).png";
+import foto4 from "../assets/bestseller/product-cover-5 (3).png";
+import foto5 from "../assets/bestseller/product-cover-5 (4).png";
+import foto6 from "../assets/bestseller/product-cover-5 (5).png";
+import foto7 from "../assets/bestseller/product-cover-5 (6).png";
+import foto8 from "../assets/bestseller/product-cover-5.png";
+function BestsellerProducts() {
   return (
-    <section id="bestsellers">
-      <div className=" flex flex-col items-center gap-20 px-[15%] py-20">
-        <div className="inline-flex flex-col justify-start items-center gap-2.5 ">
-          <p className="text-center text-neutral-500 text-xl font-normal leading-loose tracking-tight">
+    <div className=" w-full py-16  flex justify-center items-center">
+      <div className=" w-4/5 h-4/5 flex flex-col gap-8">
+        <div className="text-center  flex flex-col gap-4">
+          <p className="text-secondText text-xl xl:tracking-wider tracking-wide xl:font-normal font-medium">
             Featured Products
           </p>
-          <p className="text-center text-slate-800 text-2xl font-bold  leading-loose tracking-tight">
-            BESTSELLER PRODUCTS
-          </p>
-          <p className="text-center text-neutral-500 text-sm font-normal leading-tight tracking-tight">
+          <h2 className="text-textColor font-bold text-2xl xl:tracking-widest tracking-wider">
+            BESTSELLER <br className="xl:hidden block" /> PRODUCTS
+          </h2>
+          <p className="text-secondText tracking-wider xl:font-normal font-medium">
             Problems trying to resolve the conflict between{" "}
           </p>
         </div>
-        <div className=" flex flex-wrap gap-10 justify-around">
-          {products.map((product) => (
-            <ProductCard product={product} />
-          ))}
+        <div className=" xl:flex xl:flex-row xl:justify-evenly flex flex-col gap-20 xl:gap-x-2 xl:gap-y-20 xl:flex-wrap">
+          <div className=" xl:w-1/5 flex flex-col text-center gap-4 hover:shadow-2xl hover:scale-[1.02] transition-all">
+            <img src={foto1} />
+            <h4 className="text-textColor pt-4 font-bold tracking-wider">
+              Graphic Design
+            </h4>
+            <p className="text-secondText font-medium">English Department</p>
+            <div className="flex gap-5 justify-center">
+              <span className="text-mutedColor">$16.48</span>
+              <span className="text-secondaryColorGreen font-bold">$6.48</span>
+            </div>
+            <div className="flex gap-2 justify-center">
+              <button className="h-5 w-5 bg-primaryColor rounded-full"></button>
+              <button className="h-5 w-5 bg-secondaryColorGreen rounded-full"></button>
+              <button className="h-5 w-5 bg-alertColor rounded-full"></button>
+              <button className="h-5 w-5 bg-darkBg rounded-full"></button>
+            </div>
+          </div>
+          <div className=" xl:w-1/5 flex flex-col text-center gap-4 hover:shadow-2xl hover:scale-[1.02] transition-all">
+            <img src={foto2} />
+            <h4 className="text-textColor pt-4 font-bold tracking-wider">
+              Graphic Design
+            </h4>
+            <p className="text-secondText font-medium">English Department</p>
+            <div className="flex gap-5 justify-center">
+              <span className="text-mutedColor">$16.48</span>
+              <span className="text-secondaryColorGreen font-bold">$6.48</span>
+            </div>
+            <div className="flex gap-2 justify-center">
+              <button className="h-5 w-5 bg-primaryColor rounded-full"></button>
+              <button className="h-5 w-5 bg-secondaryColorGreen rounded-full"></button>
+              <button className="h-5 w-5 bg-alertColor rounded-full"></button>
+              <button className="h-5 w-5 bg-darkBg rounded-full"></button>
+            </div>
+          </div>
+          <div className=" xl:w-1/5 flex flex-col text-center gap-4 hover:shadow-2xl hover:scale-[1.02] transition-all">
+            <img src={foto3} />
+            <h4 className="text-textColor pt-4 font-bold tracking-wider">
+              Graphic Design
+            </h4>
+            <p className="text-secondText font-medium">English Department</p>
+            <div className="flex gap-5 justify-center">
+              <span className="text-mutedColor">$16.48</span>
+              <span className="text-secondaryColorGreen font-bold">$6.48</span>
+            </div>
+            <div className="flex gap-2 justify-center">
+              <button className="h-5 w-5 bg-primaryColor rounded-full"></button>
+              <button className="h-5 w-5 bg-secondaryColorGreen rounded-full"></button>
+              <button className="h-5 w-5 bg-alertColor rounded-full"></button>
+              <button className="h-5 w-5 bg-darkBg rounded-full"></button>
+            </div>
+          </div>
+          <div className=" xl:w-1/5 flex flex-col text-center gap-4 hover:shadow-2xl hover:scale-[1.02] transition-all ">
+            <img src={foto4} />
+            <h4 className="text-textColor pt-4 font-bold tracking-wider">
+              Graphic Design
+            </h4>
+            <p className="text-secondText font-medium">English Department</p>
+            <div className="flex gap-5 justify-center">
+              <span className="text-mutedColor">$16.48</span>
+              <span className="text-secondaryColorGreen font-bold">$6.48</span>
+            </div>
+            <div className="flex gap-2 justify-center">
+              <button className="h-5 w-5 bg-primaryColor rounded-full"></button>
+              <button className="h-5 w-5 bg-secondaryColorGreen rounded-full"></button>
+              <button className="h-5 w-5 bg-alertColor rounded-full"></button>
+              <button className="h-5 w-5 bg-darkBg rounded-full"></button>
+            </div>
+          </div>
+          <div className=" xl:w-1/5 flex flex-col text-center gap-4 hover:shadow-2xl hover:scale-[1.02] transition-all">
+            <img src={foto5} />
+            <h4 className="text-textColor pt-4 font-bold tracking-wider">
+              Graphic Design
+            </h4>
+            <p className="text-secondText font-medium">English Department</p>
+            <div className="flex gap-5 justify-center">
+              <span className="text-mutedColor">$16.48</span>
+              <span className="text-secondaryColorGreen font-bold">$6.48</span>
+            </div>
+            <div className="flex gap-2 justify-center">
+              <button className="h-5 w-5 bg-primaryColor rounded-full"></button>
+              <button className="h-5 w-5 bg-secondaryColorGreen rounded-full"></button>
+              <button className="h-5 w-5 bg-alertColor rounded-full"></button>
+              <button className="h-5 w-5 bg-darkBg rounded-full"></button>
+            </div>
+          </div>
+          <div className=" xl:w-1/5 flex flex-col text-center gap-4 hover:shadow-2xl hover:scale-[1.02] transition-all">
+            <img src={foto6} />
+            <h4 className="text-textColor pt-4 font-bold tracking-wider">
+              Graphic Design
+            </h4>
+            <p className="text-secondText font-medium">English Department</p>
+            <div className="flex gap-5 justify-center">
+              <span className="text-mutedColor">$16.48</span>
+              <span className="text-secondaryColorGreen font-bold">$6.48</span>
+            </div>
+            <div className="flex gap-2 justify-center">
+              <button className="h-5 w-5 bg-primaryColor rounded-full"></button>
+              <button className="h-5 w-5 bg-secondaryColorGreen rounded-full"></button>
+              <button className="h-5 w-5 bg-alertColor rounded-full"></button>
+              <button className="h-5 w-5 bg-darkBg rounded-full"></button>
+            </div>
+          </div>
+          <div className=" xl:w-1/5 flex flex-col text-center gap-4 hover:shadow-2xl hover:scale-[1.02] transition-all">
+            <img src={foto7} />
+            <h4 className="text-textColor pt-4 font-bold tracking-wider">
+              Graphic Design
+            </h4>
+            <p className="text-secondText font-medium">English Department</p>
+            <div className="flex gap-5 justify-center">
+              <span className="text-mutedColor">$16.48</span>
+              <span className="text-secondaryColorGreen font-bold">$6.48</span>
+            </div>
+            <div className="flex gap-2 justify-center">
+              <button className="h-5 w-5 bg-primaryColor rounded-full"></button>
+              <button className="h-5 w-5 bg-secondaryColorGreen rounded-full"></button>
+              <button className="h-5 w-5 bg-alertColor rounded-full"></button>
+              <button className="h-5 w-5 bg-darkBg rounded-full"></button>
+            </div>
+          </div>
+          <div className=" xl:w-1/5 flex flex-col text-center gap-4 hover:shadow-2xl hover:scale-[1.02] transition-all">
+            <img src={foto8} />
+            <h4 className="text-textColor pt-4 font-bold tracking-wider">
+              Graphic Design
+            </h4>
+            <p className="text-secondText font-medium">English Department</p>
+            <div className="flex gap-5 justify-center">
+              <span className="text-mutedColor">$16.48</span>
+              <span className="text-secondaryColorGreen font-bold">$6.48</span>
+            </div>
+            <div className="flex gap-2 justify-center">
+              <button className="h-5 w-5 bg-primaryColor rounded-full"></button>
+              <button className="h-5 w-5 bg-secondaryColorGreen rounded-full"></button>
+              <button className="h-5 w-5 bg-alertColor rounded-full"></button>
+              <button className="h-5 w-5 bg-darkBg rounded-full"></button>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
   );
-};
+}
 
 export default BestsellerProducts;
