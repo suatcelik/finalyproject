@@ -77,7 +77,7 @@ const Header = () => {
                 <Link to="/contact">
                   <li>Contact</li>
                 </Link>
-                <Link to="/paces">
+                <Link to="/pages">
                   <li>Pages</li>
                 </Link>
               </ul>
@@ -133,7 +133,7 @@ const Header = () => {
           <Link to="/contact">
             <li className="py-3">Contact</li>
           </Link>
-          <Link>
+          <Link to="/pages">
             <li className="xl:block hidden py-3">Pages</li>
           </Link>
         </ul>
