@@ -1,21 +1,16 @@
 import React from "react";
 import "./App.css";
 
-import HomePage from "./pages/HomePage";
-import ShopPage from "./pages/ShopPage";
-import { Route, Switch } from "react-router-dom";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import PageContent from "./pages/PageContent";
 
 function App() {
   return (
     <div className="w-full">
-      <Switch>
-        <Route path="/">
-          <HomePage />
-        </Route>
-        <Route to="/shop">
-          <ShopPage />
-        </Route>
-      </Switch>
+      <Header />
+      <PageContent />
+      <Footer />
     </div>
   );
 }
