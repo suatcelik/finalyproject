@@ -1,6 +1,7 @@
 import React from "react";
 import girl from "../../assets/testimonials GİRL.png";
 import { Button } from "@material-tailwind/react";
+import { Link } from "react-router-dom/cjs/react-router-dom";
 function Testimonials() {
   return (
     <div className="w-full flex justify-center">
@@ -26,9 +27,12 @@ function Testimonials() {
               small-scale behavior during the
               <br /> first quarter of the 20th{" "}
             </p>
-            <Button className="capitalize text-sm  py-4 w-2/5 xl:w-1/4 text-center bg-hoverText border  tracking-widest xl:border-white">
+            <Link
+              to="/contact"
+              className="capitalize text-sm  py-4 w-2/5 xl:w-1/4 text-center bg-hoverText border  tracking-widest xl:border-white"
+            >
               Button
-            </Button>
+            </Link>
           </div>
         </div>
         <div className="w-2/5 xl:block hidden">

@@ -7,6 +7,7 @@ import foto5 from "../assets/bestseller/product-cover-5 (4).png";
 import foto6 from "../assets/bestseller/product-cover-5 (5).png";
 import foto7 from "../assets/bestseller/product-cover-5 (6).png";
 import foto8 from "../assets/bestseller/product-cover-5.png";
+import { Link } from "react-router-dom/cjs/react-router-dom";
 function BestsellerProducts() {
   return (
     <div className=" w-full py-16  flex justify-center items-center">
@@ -23,7 +24,10 @@ function BestsellerProducts() {
           </p>
         </div>
         <div className=" xl:flex xl:flex-row xl:justify-evenly flex flex-col gap-20 xl:gap-x-2 xl:gap-y-20 xl:flex-wrap">
-          <div className=" xl:w-1/5 flex flex-col text-center gap-4 hover:shadow-2xl hover:scale-[1.02] transition-all">
+          <Link
+            to="/product"
+            className=" xl:w-1/5 flex flex-col text-center gap-4 hover:shadow-2xl hover:scale-[1.02] transition-all"
+          >
             <img src={foto1} />
             <h4 className="text-textColor pt-4 font-bold tracking-wider">
               Graphic Design
@@ -39,8 +43,11 @@ function BestsellerProducts() {
               <button className="h-5 w-5 bg-alertColor rounded-full"></button>
               <button className="h-5 w-5 bg-darkBg rounded-full"></button>
             </div>
-          </div>
-          <div className=" xl:w-1/5 flex flex-col text-center gap-4 hover:shadow-2xl hover:scale-[1.02] transition-all">
+          </Link>
+          <Link
+            to="/product"
+            className=" xl:w-1/5 flex flex-col text-center gap-4 hover:shadow-2xl hover:scale-[1.02] transition-all"
+          >
             <img src={foto2} />
             <h4 className="text-textColor pt-4 font-bold tracking-wider">
               Graphic Design
@@ -56,8 +63,11 @@ function BestsellerProducts() {
               <button className="h-5 w-5 bg-alertColor rounded-full"></button>
               <button className="h-5 w-5 bg-darkBg rounded-full"></button>
             </div>
-          </div>
-          <div className=" xl:w-1/5 flex flex-col text-center gap-4 hover:shadow-2xl hover:scale-[1.02] transition-all">
+          </Link>
+          <Link
+            to="/product"
+            className=" xl:w-1/5 flex flex-col text-center gap-4 hover:shadow-2xl hover:scale-[1.02] transition-all"
+          >
             <img src={foto3} />
             <h4 className="text-textColor pt-4 font-bold tracking-wider">
               Graphic Design
@@ -73,8 +83,11 @@ function BestsellerProducts() {
               <button className="h-5 w-5 bg-alertColor rounded-full"></button>
               <button className="h-5 w-5 bg-darkBg rounded-full"></button>
             </div>
-          </div>
-          <div className=" xl:w-1/5 flex flex-col text-center gap-4 hover:shadow-2xl hover:scale-[1.02] transition-all ">
+          </Link>
+          <Link
+            to="/product"
+            className=" xl:w-1/5 flex flex-col text-center gap-4 hover:shadow-2xl hover:scale-[1.02] transition-all "
+          >
             <img src={foto4} />
             <h4 className="text-textColor pt-4 font-bold tracking-wider">
               Graphic Design
@@ -90,8 +103,11 @@ function BestsellerProducts() {
               <button className="h-5 w-5 bg-alertColor rounded-full"></button>
               <button className="h-5 w-5 bg-darkBg rounded-full"></button>
             </div>
-          </div>
-          <div className=" xl:w-1/5 flex flex-col text-center gap-4 hover:shadow-2xl hover:scale-[1.02] transition-all">
+          </Link>
+          <Link
+            to="/product"
+            className=" xl:w-1/5 flex flex-col text-center gap-4 hover:shadow-2xl hover:scale-[1.02] transition-all"
+          >
             <img src={foto5} />
             <h4 className="text-textColor pt-4 font-bold tracking-wider">
               Graphic Design
@@ -107,8 +123,11 @@ function BestsellerProducts() {
               <button className="h-5 w-5 bg-alertColor rounded-full"></button>
               <button className="h-5 w-5 bg-darkBg rounded-full"></button>
             </div>
-          </div>
-          <div className=" xl:w-1/5 flex flex-col text-center gap-4 hover:shadow-2xl hover:scale-[1.02] transition-all">
+          </Link>
+          <Link
+            to="/product"
+            className=" xl:w-1/5 flex flex-col text-center gap-4 hover:shadow-2xl hover:scale-[1.02] transition-all"
+          >
             <img src={foto6} />
             <h4 className="text-textColor pt-4 font-bold tracking-wider">
               Graphic Design
@@ -124,8 +143,11 @@ function BestsellerProducts() {
               <button className="h-5 w-5 bg-alertColor rounded-full"></button>
               <button className="h-5 w-5 bg-darkBg rounded-full"></button>
             </div>
-          </div>
-          <div className=" xl:w-1/5 flex flex-col text-center gap-4 hover:shadow-2xl hover:scale-[1.02] transition-all">
+          </Link>
+          <Link
+            to="/product"
+            className=" xl:w-1/5 flex flex-col text-center gap-4 hover:shadow-2xl hover:scale-[1.02] transition-all"
+          >
             <img src={foto7} />
             <h4 className="text-textColor pt-4 font-bold tracking-wider">
               Graphic Design
@@ -141,8 +163,11 @@ function BestsellerProducts() {
               <button className="h-5 w-5 bg-alertColor rounded-full"></button>
               <button className="h-5 w-5 bg-darkBg rounded-full"></button>
             </div>
-          </div>
-          <div className=" xl:w-1/5 flex flex-col text-center gap-4 hover:shadow-2xl hover:scale-[1.02] transition-all">
+          </Link>
+          <Link
+            to="/product"
+            className=" xl:w-1/5 flex flex-col text-center gap-4 hover:shadow-2xl hover:scale-[1.02] transition-all"
+          >
             <img src={foto8} />
             <h4 className="text-textColor pt-4 font-bold tracking-wider">
               Graphic Design
@@ -158,7 +183,7 @@ function BestsellerProducts() {
               <button className="h-5 w-5 bg-alertColor rounded-full"></button>
               <button className="h-5 w-5 bg-darkBg rounded-full"></button>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
     </div>

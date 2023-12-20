@@ -10,6 +10,7 @@ import {
   faInstagram,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom/cjs/react-router-dom";
 
 function TeamSection() {
   return (
@@ -36,7 +37,10 @@ function TeamSection() {
         </div>
         <div className="flex justify-center ">
           <div className="flex flex-col items-center xl:flex xl:flex-row  xl:items-start  gap-8">
-            <div className="xl:flex  flex flex-col  gap-6 xl:w-1/3 items-center">
+            <Link
+              to="/team"
+              className="xl:flex  flex flex-col  gap-6 xl:w-1/3 items-center"
+            >
               <img src={team1} />
               <div className="flex flex-col  gap-3">
                 <h4 className="capitalize  text-center font-semibold tracking-wider">
@@ -49,8 +53,11 @@ function TeamSection() {
                   <FontAwesomeIcon icon={faTwitter} />
                 </div>
               </div>
-            </div>
-            <div className="xl:flex  flex flex-col  gap-6 xl:w-1/3 items-center">
+            </Link>
+            <Link
+              to="/team"
+              className="xl:flex  flex flex-col  gap-6 xl:w-1/3 items-center"
+            >
               <img src={team2} className="" />
               <div className="flex flex-col gap-3">
                 <h4 className="capitalize  text-center  font-semibold tracking-wider">
@@ -63,8 +70,11 @@ function TeamSection() {
                   <FontAwesomeIcon icon={faTwitter} />
                 </div>
               </div>
-            </div>
-            <div className="xl:flex flex flex-col  gap-6 xl:w-1/3 items-center">
+            </Link>
+            <Link
+              to="/team"
+              className="xl:flex flex flex-col  gap-6 xl:w-1/3 items-center"
+            >
               <img src={team3} />
               <div className="flex flex-col gap-3">
                 <h4 className="capitalize font-semibold tracking-wider  text-center ">
@@ -77,7 +87,7 @@ function TeamSection() {
                   <FontAwesomeIcon icon={faTwitter} />
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </div>

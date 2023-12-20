@@ -5,6 +5,8 @@ import HomePage from "../pages/HomePage";
 import ShopPage from "../pages/ShopPage";
 import AboutPage from "../pages/AboutPage";
 import BlogPage from "../pages/BlogPage";
+import ProductPage from "../pages/ProductPage";
+import TeamPage from "../pages/TeamPage";
 
 export default function PageContent() {
   return (
@@ -21,6 +23,12 @@ export default function PageContent() {
         </Route>
         <Route path="/blog" exact>
           <BlogPage />
+        </Route>
+        <Route path="/product" exact>
+          <ProductPage />
+        </Route>
+        <Route path="/team" exact>
+          <TeamPage />
         </Route>
       </Switch>
     </div>
