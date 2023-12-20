@@ -46,8 +46,8 @@ function TeamSection() {
                 <h4 className="capitalize  text-center font-semibold tracking-wider">
                   selena
                 </h4>
-                <p className="text-sm xl:text-start text-center ">profession</p>
-                <div className="flex gap-3 ">
+                <p className="text-sm xl:text-start text-center ">Profession</p>
+                <div className="flex gap-3  text-primaryColor">
                   <FontAwesomeIcon icon={faInstagram} />
                   <FontAwesomeIcon icon={faFacebook} />
                   <FontAwesomeIcon icon={faTwitter} />
@@ -63,8 +63,8 @@ function TeamSection() {
                 <h4 className="capitalize  text-center  font-semibold tracking-wider">
                   dua
                 </h4>
-                <p className="text-sm xl:text-start text-center ">profession</p>
-                <div className="flex gap-3 ">
+                <p className="text-sm xl:text-start text-center ">Profession</p>
+                <div className="flex gap-3  text-primaryColor">
                   <FontAwesomeIcon icon={faInstagram} />
                   <FontAwesomeIcon icon={faFacebook} />
                   <FontAwesomeIcon icon={faTwitter} />
@@ -80,8 +80,8 @@ function TeamSection() {
                 <h4 className="capitalize font-semibold tracking-wider  text-center ">
                   ajdar
                 </h4>
-                <p className="text-sm xl:text-start text-center ">profession</p>
-                <div className="flex gap-3 ">
+                <p className="text-sm xl:text-start text-center ">Profession</p>
+                <div className="flex gap-3  text-primaryColor">
                   <FontAwesomeIcon icon={faInstagram} />
                   <FontAwesomeIcon icon={faFacebook} />
                   <FontAwesomeIcon icon={faTwitter} />
