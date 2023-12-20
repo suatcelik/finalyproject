@@ -3,6 +3,14 @@ import team1 from "../../assets/Team/team1.jpg";
 import team2 from "../../assets/Team/team2.jpg";
 import team3 from "../../assets/Team/team3.jpg";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import {
+  faFacebook,
+  faInstagram,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
+
 function TeamSection() {
   return (
     <div className=" py-24 flex justify-center">
@@ -31,28 +39,43 @@ function TeamSection() {
             <div className="xl:flex  flex flex-col  gap-6 xl:w-1/3 items-center">
               <img src={team1} />
               <div className="flex flex-col  gap-3">
-                <h4 className="capitalize xl:text-start text-center font-semibold tracking-wider">
+                <h4 className="capitalize  text-center font-semibold tracking-wider">
                   selena
                 </h4>
                 <p className="text-sm xl:text-start text-center ">profession</p>
+                <div className="flex gap-3 ">
+                  <FontAwesomeIcon icon={faInstagram} />
+                  <FontAwesomeIcon icon={faFacebook} />
+                  <FontAwesomeIcon icon={faTwitter} />
+                </div>
               </div>
             </div>
             <div className="xl:flex  flex flex-col  gap-6 xl:w-1/3 items-center">
               <img src={team2} className="" />
               <div className="flex flex-col gap-3">
-                <h4 className="capitalize xl:text-start text-center  font-semibold tracking-wider">
+                <h4 className="capitalize  text-center  font-semibold tracking-wider">
                   dua
                 </h4>
                 <p className="text-sm xl:text-start text-center ">profession</p>
+                <div className="flex gap-3 ">
+                  <FontAwesomeIcon icon={faInstagram} />
+                  <FontAwesomeIcon icon={faFacebook} />
+                  <FontAwesomeIcon icon={faTwitter} />
+                </div>
               </div>
             </div>
             <div className="xl:flex flex flex-col  gap-6 xl:w-1/3 items-center">
               <img src={team3} />
               <div className="flex flex-col gap-3">
-                <h4 className="capitalize font-semibold tracking-wider xl:text-start text-center ">
+                <h4 className="capitalize font-semibold tracking-wider  text-center ">
                   ajdar
                 </h4>
                 <p className="text-sm xl:text-start text-center ">profession</p>
+                <div className="flex gap-3 ">
+                  <FontAwesomeIcon icon={faInstagram} />
+                  <FontAwesomeIcon icon={faFacebook} />
+                  <FontAwesomeIcon icon={faTwitter} />
+                </div>
               </div>
             </div>
           </div>
