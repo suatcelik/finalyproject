@@ -1,5 +1,13 @@
+import Cta from "../components/TeamPage/Cta";
+import Team from "../components/TeamPage/Team";
+
 function TeamPage() {
-  return <div>team</div>;
+  return (
+    <>
+      <Team />
+      <Cta />
+    </>
+  );
 }
 
 export default TeamPage;
