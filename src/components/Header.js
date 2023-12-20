@@ -61,24 +61,24 @@ const Header = () => {
             <div className="xl:block hidden">
               <ul className="flex-col gap-6 xl:flex xl:flex-row xl:gap-4 text-secondText">
                 <Link to="/">
-                  <li>Home</li>
+                  <li className="hover:underline">Home</li>
                 </Link>
                 <Link to="/shop">
                   <li className="flex gap-2 text-textColor">
-                    <p>Shop</p> <img src={alt} />
+                    <p className="hover:underline">Shop</p> <img src={alt} />
                   </li>
                 </Link>
                 <Link to="/about">
-                  <li>About</li>
+                  <li className="hover:underline">About</li>
                 </Link>
                 <Link to="/blog">
-                  <li>Blog</li>
+                  <li className="hover:underline">Blog</li>
                 </Link>
                 <Link to="/contact">
-                  <li>Contact</li>
+                  <li className="hover:underline">Contact</li>
                 </Link>
                 <Link to="/pages">
-                  <li>Pages</li>
+                  <li className="hover:underline">Pages</li>
                 </Link>
               </ul>
             </div>

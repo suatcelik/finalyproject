@@ -27,10 +27,10 @@ function TeamSection() {
           </p>
         </div>
         <div className="flex justify-center ">
-          <div className="flex flex-col items-center xl:flex xl:flex-row xl:justify-between xl:items-start xl:flex-wrap">
+          <div className="flex flex-col items-center xl:flex xl:flex-row  xl:items-start  gap-8">
             <div className="xl:flex  flex flex-col  gap-6 xl:w-1/3 items-center">
               <img src={team1} />
-              <div className="flex flex-col gap-3">
+              <div className="flex flex-col  gap-3">
                 <h4 className="capitalize xl:text-start text-center font-semibold tracking-wider">
                   selena
                 </h4>
