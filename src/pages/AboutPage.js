@@ -1,5 +1,6 @@
 import React from "react";
 import Clients from "../components/Shop/Clients";
+import Text from "../components/About/Text";
 import Testimonials from "../components/About/Testimonials";
 import StatsAndVideo from "../components/About/StatsAndVideo";
 import TeamSection from "../components/About/TeamSection";
@@ -11,6 +12,7 @@ export default function AboutPage() {
       <AboutUs />
       <StatsAndVideo />
       <TeamSection />
+      <Text />
       <Clients />
       <Testimonials />
     </>

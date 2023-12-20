@@ -27,41 +27,32 @@ function TeamSection() {
           </p>
         </div>
         <div className="flex justify-center ">
-          <div className="flex flex-col items-center gap-10 xl:flex xl:flex-row xl:justify-between xl:items-start xl:flex-wrap  xl:gap-x-0 xl:gap-y-20 w-5/6">
-            <div className="xl:flex xl:flex-row flex flex-col  gap-6 xl:w-1/3 items-center">
-              <img src={team1} className="w-24 h-24" />
+          <div className="flex flex-col items-center xl:flex xl:flex-row xl:justify-between xl:items-start xl:flex-wrap">
+            <div className="xl:flex  flex flex-col  gap-6 xl:w-1/3 items-center">
+              <img src={team1} />
               <div className="flex flex-col gap-3">
                 <h4 className="capitalize xl:text-start text-center font-semibold tracking-wider">
-                  jacob jones
+                  selena
                 </h4>
-                <p className="text-sm xl:text-start text-center ">
-                  {" "}
-                  Mitsubishi
-                </p>
+                <p className="text-sm xl:text-start text-center ">profession</p>
               </div>
             </div>
-            <div className="xl:flex xl:flex-row flex flex-col  gap-6 xl:w-1/3 items-center">
-              <img src={team2} className="w-24 h-24" />
+            <div className="xl:flex  flex flex-col  gap-6 xl:w-1/3 items-center">
+              <img src={team2} className="" />
               <div className="flex flex-col gap-3">
                 <h4 className="capitalize xl:text-start text-center  font-semibold tracking-wider">
-                  Kathryn Murphy
+                  dua
                 </h4>
-                <p className="text-sm xl:text-start text-center ">
-                  {" "}
-                  Mitsubishi
-                </p>
+                <p className="text-sm xl:text-start text-center ">profession</p>
               </div>
             </div>
-            <div className="xl:flex xl:flex-row flex flex-col  gap-6 xl:w-1/3 items-center">
-              <img src={team3} className="w-24 h-24" />
+            <div className="xl:flex flex flex-col  gap-6 xl:w-1/3 items-center">
+              <img src={team3} />
               <div className="flex flex-col gap-3">
                 <h4 className="capitalize font-semibold tracking-wider xl:text-start text-center ">
-                  Eleanor Pena
+                  ajdar
                 </h4>
-                <p className="text-sm xl:text-start text-center ">
-                  {" "}
-                  Mitsubishi
-                </p>
+                <p className="text-sm xl:text-start text-center ">profession</p>
               </div>
             </div>
           </div>
