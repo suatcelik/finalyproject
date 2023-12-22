@@ -50,8 +50,12 @@ function ProductsCards() {
         </div>
         <div className="flex flex-col gap-16 xl:gap-0 xl:flex xl:flex-row w-11/12 xl:flex-wrap xl:justify-between xl:gap-y-12">
           <div className=" xl:w-[23%] flex flex-col text-center xl:gap-6 gap-8 ">
-            <Link to="/shop/product">
-              <img className="w-full" src={photo1} alt="Product 1" />
+            <Link to="/product">
+              <img
+                className="w-full hover:shadow-2xl hover:scale-[1.02] transition-all"
+                src={photo1}
+                alt="Product 1"
+              />
             </Link>
             <h4 className="text-textColor font-bold tracking-wider">
               Graphic Design
@@ -69,8 +73,11 @@ function ProductsCards() {
             </div>
           </div>
           <div className=" xl:w-[23%] flex flex-col text-center xl:gap-6 gap-8 ">
-            <Link to="/shop/product">
-              <img className="w-full" src={photo2} />
+            <Link to="/product">
+              <img
+                className="w-full hover:shadow-2xl hover:scale-[1.02] transition-all"
+                src={photo2}
+              />
             </Link>
             <h4 className="text-textColor font-bold tracking-wider">
               Graphic Design
@@ -88,8 +95,11 @@ function ProductsCards() {
             </div>
           </div>
           <div className=" xl:w-[23%] flex flex-col text-center gap-8 xl:gap-6">
-            <Link to="/shop/product">
-              <img className="w-full" src={photo3} />
+            <Link to="/product">
+              <img
+                className="w-full hover:shadow-2xl hover:scale-[1.02] transition-all"
+                src={photo3}
+              />
             </Link>
             <h4 className="text-textColor font-bold tracking-wider">
               Graphic Design
@@ -107,8 +117,11 @@ function ProductsCards() {
             </div>
           </div>
           <div className=" xl:w-[23%] flex flex-col text-center gap-8 xl:gap-6">
-            <Link to="/shop/product">
-              <img className="w-full" src={photo4} />
+            <Link to="/product">
+              <img
+                className="w-full hover:shadow-2xl hover:scale-[1.02] transition-all"
+                src={photo4}
+              />
             </Link>
             <h4 className="text-textColor font-bold tracking-wider">
               Graphic Design
@@ -126,8 +139,11 @@ function ProductsCards() {
             </div>
           </div>
           <div className=" xl:w-[23%] flex flex-col text-center gap-8 xl:gap-6">
-            <Link to="/shop/product">
-              <img className="w-full" src={photo5} />
+            <Link to="/product">
+              <img
+                className="w-full hover:shadow-2xl hover:scale-[1.02] transition-all"
+                src={photo5}
+              />
             </Link>
             <h4 className="text-textColor font-bold tracking-wider">
               Graphic Design
@@ -145,8 +161,11 @@ function ProductsCards() {
             </div>
           </div>
           <div className=" xl:w-[23%] flex flex-col text-center gap-8 xl:gap-6">
-            <Link to="/shop/product">
-              <img className="w-full" src={photo6} />
+            <Link to="/product">
+              <img
+                className="w-full hover:shadow-2xl hover:scale-[1.02] transition-all"
+                src={photo6}
+              />
             </Link>
             <h4 className="text-textColor font-bold tracking-wider">
               Graphic Design
@@ -164,8 +183,11 @@ function ProductsCards() {
             </div>
           </div>
           <div className=" xl:w-[23%] flex flex-col text-center gap-8 xl:gap-6">
-            <Link to="/shop/product">
-              <img className="w-full" src={photo7} />
+            <Link to="/product">
+              <img
+                className="w-full hover:shadow-2xl hover:scale-[1.02] transition-all"
+                src={photo7}
+              />
             </Link>
             <h4 className="text-textColor font-bold tracking-wider">
               Graphic Design
@@ -183,8 +205,11 @@ function ProductsCards() {
             </div>
           </div>
           <div className=" xl:w-[23%] flex flex-col text-center gap-8 xl:gap-6">
-            <Link to="/shop/product">
-              <img className="w-full" src={photo8} />
+            <Link to="/product">
+              <img
+                className="w-full hover:shadow-2xl hover:scale-[1.02] transition-all"
+                src={photo8}
+              />
             </Link>
             <h4 className="text-textColor font-bold tracking-wider">
               Graphic Design
@@ -202,8 +227,11 @@ function ProductsCards() {
             </div>
           </div>
           <div className=" xl:w-[23%] flex flex-col text-center gap-8 xl:gap-6">
-            <Link to="/shop/product">
-              <img className="w-full" src={photo9} />
+            <Link to="/product">
+              <img
+                className="w-full hover:shadow-2xl hover:scale-[1.02] transition-all"
+                src={photo9}
+              />
             </Link>
             <h4 className="text-textColor font-bold tracking-wider">
               Graphic Design
@@ -221,8 +249,11 @@ function ProductsCards() {
             </div>
           </div>
           <div className=" xl:w-[23%] flex flex-col text-center gap-8 xl:gap-6">
-            <Link to="/shop/product">
-              <img className="w-full" src={photo10} />
+            <Link to="/product">
+              <img
+                className="w-full hover:shadow-2xl hover:scale-[1.02] transition-all"
+                src={photo10}
+              />
             </Link>
             <h4 className="text-textColor font-bold tracking-wider">
               Graphic Design
@@ -240,8 +271,11 @@ function ProductsCards() {
             </div>
           </div>
           <div className=" xl:w-[23%] flex flex-col text-center gap-8 xl:gap-6">
-            <Link to="/shop/product">
-              <img className="w-full" src={photo11} />
+            <Link to="/product">
+              <img
+                className="w-full hover:shadow-2xl hover:scale-[1.02] transition-all"
+                src={photo11}
+              />
             </Link>
             <h4 className="text-textColor font-bold tracking-wider">
               Graphic Design
@@ -259,8 +293,11 @@ function ProductsCards() {
             </div>
           </div>
           <div className=" xl:w-[23%] flex flex-col text-center gap-8 xl:gap-6">
-            <Link to="/shop/product">
-              <img className="w-full" src={photo12} />
+            <Link to="/product">
+              <img
+                className="w-full hover:shadow-2xl hover:scale-[1.02] transition-all"
+                src={photo12}
+              />
             </Link>
             <h4 className="text-textColor font-bold tracking-wider">
               Graphic Design

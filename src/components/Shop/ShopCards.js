@@ -21,7 +21,7 @@ function ShopCards() {
             <h3 className="text-mutedColor xl:text-lg text-base">Shop</h3>
           </div>
         </div>
-        <div className="w-full flex flex-col xl:flex xl:flex-row xl:flex-wrap bg-lightGray xl:justify-between gap-y-4 pb-12">
+        <Link className="w-full flex flex-col xl:flex xl:flex-row xl:flex-wrap bg-lightGray xl:justify-between gap-y-4 pb-12">
           <div className="xl:w-[19%] bg-green-300 relative ">
             <img className="w-full opacity-90" src={card1} />
             <div className="flex flex-col gap-2 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-lightText">
@@ -57,7 +57,7 @@ function ShopCards() {
               <p className="text-center font-semibold text-lg">5 Items</p>
             </div>
           </div>
-        </div>
+        </Link>
       </div>
     </div>
   );
