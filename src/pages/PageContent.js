@@ -8,6 +8,8 @@ import BlogPage from "../pages/BlogPage";
 import ProductPage from "../pages/ProductPage";
 import TeamPage from "../pages/TeamPage";
 import ContactPage from "../pages/ContactPage";
+import SignUpPage from "../pages/SignUpPage";
+import LoginPage from "./LoginPage";
 
 export default function PageContent() {
   return (
@@ -33,6 +35,12 @@ export default function PageContent() {
         </Route>
         <Route path="/team" exact>
           <TeamPage />
+        </Route>
+        <Route path="/signup" exact>
+          <SignUpPage />
+        </Route>
+        <Route path="/login" exact>
+          <LoginPage />
         </Route>
       </Switch>
     </div>

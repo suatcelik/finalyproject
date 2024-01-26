@@ -87,10 +87,12 @@ const Header = () => {
             <div className="text-primaryColor xl:flex xl:flex-row hidden xl:items-center xl:gap-3">
               <div className="flex items-center gap-1">
                 <FontAwesomeIcon className="text-primaryColor " icon={faUser} />
-                <p>Login</p>
+                <Link to="/login">Login</Link>
               </div>
               <span>/</span>
-              <p>Register</p>
+              <div>
+                <Link to="/signup">Register</Link>
+              </div>
             </div>
             <div className="xl:text-primaryColor text-textColor flex xl:gap-3 gap-4 items-center">
               <FontAwesomeIcon
